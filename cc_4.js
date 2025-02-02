@@ -58,3 +58,9 @@ let products = ["Laptop", "PS5", "Toy"]; // declaring an array of at least 3 pro
 for (let product of products) {
     console.log(`Product: ${product}`); //logging loop to display products
 }
+
+
+// Task 7 - Order Processing //
+let orders = [101, 102, 103];
+
+orders.forEach(orderID => console.log(orderID));
