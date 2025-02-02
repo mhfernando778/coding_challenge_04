@@ -48,6 +48,7 @@ console.log(`Final Response: ${responses}`); //logging the countdown if response
 let employee = { name: "Alice", position: "Manager", salary: 75000}; // Declaring an object with the provided properties
 
 for (let key in employee) {
-    console.log(`${key}: ${employee[key]}`); // logging 
+    console.log(`${key}: ${employee[key]}`); // logging the iterations of the object
 }
+
 
