@@ -31,3 +31,13 @@ while (stock > 0) {
 } // creating a loop to decrease the stock
 
 console.log(`Depleting Stock: ${stock}`); // logging the decrement of the stock
+
+// Task 4 Customer Survey //
+let responses = 0;
+
+do {
+    console.log(`response collection: ${responses}`);
+    responses++;
+} while (responses < 3);
+
+console.log(`Final Response: ${responses}`);
