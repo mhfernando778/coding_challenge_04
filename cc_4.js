@@ -18,3 +18,13 @@ for (let i = 0; i < sales.length; i++) {
 } // creating a for loop to add the sales numbers together
 
 console.log("Total Sales:", totalSales); // logging the total amount of sales
+
+// Task 3 - Inventory Depletion //
+let stock = 10;
+
+while (stock > 0) {
+    console.log("Stock count:", stock);
+    stock--;
+}
+
+console.log(`Decreased Stock: ${stock}`);
