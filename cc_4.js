@@ -33,11 +33,11 @@ while (stock > 0) {
 console.log(`Depleting Stock: ${stock}`); // logging the decrement of the stock
 
 // Task 4 Customer Survey //
-let responses = 0;
+let responses = 0; // declaring a response with an initial value of 0
 
 do {
     console.log(`response collection: ${responses}`);
     responses++;
 } while (responses < 3);
 
-console.log(`Final Response: ${responses}`);
+console.log(`Final Response: ${responses}`); //logging the countdown if responses
