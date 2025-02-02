@@ -32,6 +32,7 @@ while (stock > 0) {
 
 console.log(`Depleting Stock: ${stock}`); // logging the decrement of the stock
 
+
 // Task 4 Customer Survey //
 let responses = 0; // declaring a response with an initial value of 0
 
@@ -41,3 +42,12 @@ do {
 } while (responses < 3);
 
 console.log(`Final Response: ${responses}`); //logging the countdown if responses
+
+
+// Task 5 - Employee Information //
+let employee = { name: "Alice", position: "Manager", salary: 75000}; // Declaring an object with the provided properties
+
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`); // logging 
+}
+
