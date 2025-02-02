@@ -52,3 +52,9 @@ for (let key in employee) {
 }
 
 
+// Task 6 - Product Listings //
+let products = ["Laptop", "PS5", "Toy"];
+
+for (let product of products) {
+    console.log(`Product: ${product}`);
+}
