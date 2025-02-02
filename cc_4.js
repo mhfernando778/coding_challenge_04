@@ -53,8 +53,8 @@ for (let key in employee) {
 
 
 // Task 6 - Product Listings //
-let products = ["Laptop", "PS5", "Toy"];
+let products = ["Laptop", "PS5", "Toy"]; // declaring an array of at least 3 products
 
 for (let product of products) {
-    console.log(`Product: ${product}`);
+    console.log(`Product: ${product}`); //logging loop to display products
 }
