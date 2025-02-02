@@ -61,6 +61,6 @@ for (let product of products) {
 
 
 // Task 7 - Order Processing //
-let orders = [101, 102, 103];
+let orders = [101, 102, 103]; // declaring an array of order IDs
 
-orders.forEach(orderID => console.log(orderID));
+orders.forEach(orderID => console.log(orderID)); // logging the order IDs with the forEach method
