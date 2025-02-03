@@ -84,3 +84,9 @@ const applyDiscount = function(amount, discountPercent) { //declaring a function
 
 let discountedPrice = applyDiscount(1000, .10); // declaring the values to use to calculate the applied discount
 console.log(`Discounted Price: ${discountedPrice}`); //  logging the discounted amount
+
+
+// Task 10 - Loyalty Points //
+const calculatePoints = (purchaseAmount, amountPerPoint) => purchaseAmount / amountPerPoint;
+
+console.log(`Points Earned: ${calculatePoints(150, 10)}`);
