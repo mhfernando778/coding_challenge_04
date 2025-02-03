@@ -87,6 +87,6 @@ console.log(`Discounted Price: ${discountedPrice}`); //  logging the discounted 
 
 
 // Task 10 - Loyalty Points //
-const calculatePoints = (purchaseAmount, amountPerPoint) => purchaseAmount / amountPerPoint;
+const calculatePoints = (purchaseAmount, amountPerPoint) => purchaseAmount / amountPerPoint; // declaring the components to calculate points
 
-console.log(`Points Earned: ${calculatePoints(150, 10)}`);
+console.log(`Points Earned: ${calculatePoints(150, 10)}`); // logging the amount of points earned with the given values
