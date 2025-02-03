@@ -64,3 +64,12 @@ for (let product of products) {
 let orders = [101, 102, 103]; // declaring an array of order IDs
 
 orders.forEach(orderID => console.log(orderID)); // logging the order IDs with the forEach method
+
+
+// Task 8 - Tax Calculation //
+
+function calculateTax(amount) {
+    return amount * .10;
+}
+
+console.log(`Calculated Tax: ${calculateTax(1000)}`);
