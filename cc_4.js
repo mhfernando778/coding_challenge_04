@@ -68,8 +68,19 @@ orders.forEach(orderID => console.log(orderID)); // logging the order IDs with t
 
 // Task 8 - Tax Calculation //
 
-function calculateTax(amount) { // declaring a function to calculate tax
-    return amount * .10; // multiplying amount by 10%
+function calculateTax(amount, taxRate) { // declaring a function to calculate tax
+    return amount * taxRate; // multiplying amount by 10%
 }
 
-console.log(`Calculated Tax: ${calculateTax(1000)}`); // logging the calculated tax
+let tax = calculateTax(1000, .10);
+console.log(`Calculated Tax: ${tax}`); // logging the calculated tax
+
+
+// Task 9 - Discount Application //
+
+const applyDiscount = function(amount, discountPercent) {
+    return amount - (amount * discountPercent);
+};
+
+let discountedPrice = applyDiscount(1000, .10)
+console.log(`Discounted Price: ${discountedPrice}`);
